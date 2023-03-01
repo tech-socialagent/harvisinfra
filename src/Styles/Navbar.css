@@ -3,6 +3,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 15px 80px;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  width: 100%;
 }
 .menu_items ul {
   display: flex;
@@ -36,6 +40,7 @@
   background: #d03042;
 }
 .menu_items ul li:last-child a{
-    background: transparent;
+    /* background-color: transparent; */
+    border-color: var(--black-color);
 }
 
