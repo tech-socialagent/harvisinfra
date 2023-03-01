@@ -1,0 +1,41 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 80px;
+}
+.menu_items ul {
+  display: flex;
+}
+.menu_items ul li {
+  list-style: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 90%;
+  margin: 0px 15px;
+  /* identical to box height, or 18px */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.menu_items ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 90%;
+  /* or 14px */
+
+  text-align: center;
+
+  color: #ffffff;
+  border-radius: 20px 0px;
+  padding: 9px;
+
+  background: #d03042;
+}
+.menu_items ul li:last-child a{
+    background: transparent;
+}
+
