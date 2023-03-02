@@ -13,3 +13,16 @@
   font-family: 'Noto Sans', sans-serif;
   position: relative;
 }
+
+h3 {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 90%;
+  /* identical to box height, or 58px */
+}
+p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 126.5%;
+  /* or 25px */
+}
