@@ -13,7 +13,7 @@ const OurProducts = () => {
       </div>
       <div className="product_items">
         <div className="product_card">
-          <img src={require("../assets/photos/Product1.jpeg")} alt="" />
+          <img src={require("../assets/photos/bitumen.jpeg")} alt="" />
           <div className="product_title">Bitumen</div>
           <div className="product_desc">
             <div className="item_title">Bitumen</div>
@@ -28,8 +28,8 @@ const OurProducts = () => {
           </div>
         </div>
         <div className="product_card">
-          <img src={require("../assets/photos/Product1.jpeg")} alt="" />
-          <div className="product_title">Bitumen</div>
+          <img src={require("../assets/photos/Emulsion.jpg")} alt="" />
+          <div className="product_title">Emulsion</div>
           <div className="product_desc">
             <div className="item_title">Bitumen</div>
             <div className="item_desc">
@@ -43,8 +43,8 @@ const OurProducts = () => {
           </div>
         </div>
         <div className="product_card">
-          <img src={require("../assets/photos/Product1.jpeg")} alt="" />
-          <div className="product_title">Bitumen</div>
+          <img src={require("../assets/photos/steel.jpg")} alt="" />
+          <div className="product_title">Steel</div>
           <div className="product_desc">
             <div className="item_title">Bitumen</div>
             <div className="item_desc">
@@ -58,8 +58,8 @@ const OurProducts = () => {
           </div>
         </div>
         <div className="product_card">
-          <img src={require("../assets/photos/Product1.jpeg")} alt="" />
-          <div className="product_title">Bitumen</div>
+          <img src={require("../assets/photos/cement.jpg")} alt="" />
+          <div className="product_title">Cement</div>
           <div className="product_desc">
             <div className="item_title">Bitumen</div>
             <div className="item_desc">
@@ -73,8 +73,8 @@ const OurProducts = () => {
           </div>
         </div>
         <div className="product_card">
-          <img src={require("../assets/photos/Product1.jpeg")} alt="" />
-          <div className="product_title">Bitumen</div>
+          <img src={require("../assets/photos/petroleum.jpg")} alt="" />
+          <div className="product_title">Petroleum</div>
           <div className="product_desc">
             <div className="item_title">Bitumen</div>
             <div className="item_desc">

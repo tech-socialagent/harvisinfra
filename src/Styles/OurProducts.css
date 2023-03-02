@@ -10,6 +10,7 @@
 .our_products_section h3 {
   color: var(--white-color);
   width: 300px;
+  line-height: normal;
 }
 .sec_desc {
   font-weight: 500;
