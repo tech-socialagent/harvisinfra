@@ -35,13 +35,12 @@
 .about_desc {
   margin: 10px 0 50px 0;
 }
-.section_heading{
+.section_heading {
   /* display: flex;
   align-items: baseline; */
   font-weight: 600;
   font-size: 64px;
   line-height: 90%;
-  
 }
 .dot_section .section_heading h3::after {
   display: inline-block;
@@ -56,5 +55,4 @@
     rgba(208, 48, 66, 0) 100%
   );
   border-radius: 12.6px 0px;
- 
 }

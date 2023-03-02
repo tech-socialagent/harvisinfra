@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import OurProducts from './components/OurProducts';
 import Services from './components/Services';
+import Location from './components/Location';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <OurProducts/>
       <Services/>
       <Clients/>
+      <Location/>
     </div>
   );
 }
