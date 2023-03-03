@@ -10,6 +10,7 @@ import Emulsion from "./components/pages/Emulsion";
 import Cement from "./components/pages/Cement";
 import Steel from "./components/pages/Steel";
 import Petroleum from "./components/pages/Petroleum";
+import AboutPage from "./components/AboutPage";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
   {
     path:"/emulsion",
     element: <Emulsion/>
+  },
+  {
+    path:"/about_us",
+    element: <AboutPage/>
   },
   
 ]);

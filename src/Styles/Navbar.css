@@ -10,37 +10,57 @@
 }
 .menu_items ul {
   display: flex;
+  align-items: center;
 }
 .menu_items ul li {
   list-style: none;
+  text-align: center;
+
+  /* identical to box height, or 18px */
+}
+.menu_items ul li a {
   font-weight: 400;
   font-size: 20px;
   line-height: 90%;
   margin: 0px 15px;
-  /* identical to box height, or 18px */
-
-  text-align: center;
-
   color: #ffffff;
-}
-
-.menu_items ul li a {
   text-decoration: none;
+}
+.menu_items ul li a[name="section"]:hover {
+  background: linear-gradient(92.63deg, #d03042 1.71%, #ffffff 101.71%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.nav_btn1 a,
+.nav_btn2 a {
+  display: inline-block;
+  align-items: center;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 16px !important;
   line-height: 90%;
-  /* or 14px */
-
+  width: 100px !important;
   text-align: center;
 
-  color: #ffffff;
   border-radius: 20px 0px;
   padding: 9px;
-
-  background: #d03042;
+  color: #ffffff;
+  transition: all 0.3s;
 }
-.menu_items ul li:last-child a{
-    /* background-color: transparent; */
-    border-color: var(--black-color);
+.nav_btn1 a {
+  background-color: #d03042;
 }
-
+.nav_btn1 a:hover {
+  color: #d03042;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.nav_btn2 a {
+  
+  border: 1px solid #ffffff;
+}
+.nav_btn2 a:hover {
+  color: #ffffff;
+  background-color: #d03042;
+  border-color: #d03042;
+}

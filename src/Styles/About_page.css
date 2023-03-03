@@ -1,0 +1,62 @@
+.aboutpage {
+  padding: 120px 80px;
+}
+.aboutpage .about_desc p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 126.5%;
+  margin: 10px 0px;
+  /* or 25px */
+  color: #000000;
+}
+.aboutpage .middle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 60px;
+}
+.ceo_detail {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  margin-top: 40px;
+  column-gap: 100px;
+}
+.ceo_detail img {
+  width: 435px;
+  height: 480px;
+  
+}
+.ceo_desc {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.ceo_desc h4 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 90%;
+  /* or 43px */
+  color: #000000;
+}
+.ceo_desc h5 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  /* or 43px */
+  color: #d03042;
+}
+
+.aboutpage p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 126.5%;
+  /* or 25px */
+  color: #000000;
+}
+.ceo_desc p{
+    line-height: 30px;
+}
+.aboutpage .top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
