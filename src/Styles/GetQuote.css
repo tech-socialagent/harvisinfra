@@ -1,0 +1,89 @@
+.getquote_body {
+  padding: 120px 80px 50px 80px;
+  background-image: url("../assets/Group.png");
+  background-position: bottom 0% right 0%;
+  background-repeat: no-repeat;
+}
+.getquote_body .top {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  align-items: center;
+}
+.getquote_body .top .top_desc {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: rgba(0, 0, 0, 0.7);
+}
+.getquote_body .bottom {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  margin-top: 50px;
+}
+input:focus {
+  outline-style: none;
+}
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #7f7f7f;
+  padding: 15px 0px 5px 0px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 90%;
+  /* identical to box height, or 18px */
+  background-color: transparent;
+  color: #a9a9a9;
+}
+input::placeholder {
+  color: #a9a9a9;
+}
+.form_title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 90%;
+  /* identical to box height, or 36px */
+  color: #080111;
+}
+.quote_image img {
+  width: 519px;
+  height: 541px;
+  border-radius: 9px;
+}
+.quote_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.form_privacy {
+  color: #080111;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 0 5px;
+}
+.form_agreement {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #a9a9a9;
+  margin: 25px 5px;
+}
+
+/* @media only screen and (max-width: 400px) {
+    .getquote_body .component_title{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .getquote_body .section_header{
+        margin-top: 80px;
+    }
+    .getquote_body .section_body{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .quote_image{
+        display: none;
+    }
+} */

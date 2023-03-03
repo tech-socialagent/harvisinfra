@@ -11,6 +11,7 @@ import Cement from "./components/pages/Cement";
 import Steel from "./components/pages/Steel";
 import Petroleum from "./components/pages/Petroleum";
 import AboutPage from "./components/AboutPage";
+import Getquote from "./components/Getquote";
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
     path:"/about_us",
     element: <AboutPage/>
   },
+  {
+    path:"/getquote",
+    element: <Getquote/>
+  }
   
 ]);
 

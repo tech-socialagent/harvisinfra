@@ -1,5 +1,8 @@
 .aboutpage {
   padding: 120px 80px;
+  background-image: url("../assets/Group.png");
+  background-position: bottom 0% right 0%;
+  background-repeat: no-repeat;
 }
 .aboutpage .about_desc p {
   font-weight: 400;
