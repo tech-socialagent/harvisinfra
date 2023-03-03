@@ -6,17 +6,19 @@ import Navbar from './components/Navbar';
 import OurProducts from './components/OurProducts';
 import Services from './components/Services';
 import Location from './components/Location';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      {/* <Navbar/> */}
       <Home/>
       <About/>
       <OurProducts/>
       <Services/>
       <Clients/>
       <Location/>
+      {/* <Footer/> */}
     </div>
   );
 }

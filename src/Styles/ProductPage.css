@@ -1,0 +1,20 @@
+.product_page {
+  padding: 120px 80px 30px 80px;
+  background-color: #200000;
+}
+.product_page h3 {
+  color: var(--white-color);
+}
+.page_section_body {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  margin-top: 25px;
+}
+.page_section_body p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 126.5%;
+  /* or 25px */
+  color: #ffffff;
+  margin: 10px 0px;
+}

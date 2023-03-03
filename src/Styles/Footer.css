@@ -1,0 +1,70 @@
+.app_footer {
+}
+.app_footer .ft_top {
+  padding: 38px 85px 25px 85px;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr 1.5fr;
+  column-gap: 20px;
+  border-bottom:0.5px solid rgba(0, 0, 0, 0.5);;
+}
+.app_footer .ft_top h4,
+h4 > a {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 82%;
+  /* identical to box height, or 20px */
+  text-decoration: none;
+  /* text-align: center; */
+  color: #000000;
+  margin-top: 20px;
+}
+
+.app_footer .ft_top div > a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 82%;
+  display: block;
+  margin: 20px 0px;
+  /* or 13px */
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.ft_top > div:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.ft_copy,.ft_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ft_copy{
+    padding: 0px 85px;
+    width: 100%;
+}
+.ft_bottom .ft_copy h5,
+.ft_copy a {
+    /* display: block; */
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+}
+.ft_copy a{
+    margin:0 12px;
+}
+.ft_bottom .ft_flo {
+  width: 77px;
+  height: 77px;
+
+  background: linear-gradient(
+    222.3deg,
+    #d03042 4.29%,
+    rgba(208, 48, 66, 0) 100%
+  );
+  border-radius: 15.4px 0px;
+}
