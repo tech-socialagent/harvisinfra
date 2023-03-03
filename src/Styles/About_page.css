@@ -24,8 +24,9 @@
   column-gap: 100px;
 }
 .ceo_detail img {
-  width: 435px;
-  height: 480px;
+  width: 100%;
+  max-width: 435px;
+  max-height: 480px;
   
 }
 .ceo_desc {

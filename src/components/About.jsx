@@ -7,7 +7,7 @@ const About = () => {
       <div className="about_text">
         <div className="section_heading">
           <h3>About Us.</h3>
-        </div>
+        </div> 
         <div className="about_desc">
           <p>
             HARVIS is a trading and a multi-domain infrastructure project

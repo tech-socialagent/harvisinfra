@@ -20,6 +20,7 @@
   display: grid;
   grid-template-columns: 1fr 1.3fr;
   margin-top: 50px;
+  column-gap: 50px;
 }
 input:focus {
   outline-style: none;
@@ -48,8 +49,9 @@ input::placeholder {
   color: #080111;
 }
 .quote_image img {
-  width: 519px;
-  height: 541px;
+  width: 100%;
+  max-width: 519px;
+  max-width: 541px;
   border-radius: 9px;
 }
 .quote_form {
