@@ -15,61 +15,61 @@ import Privacy from "./components/pages/Privacy";
 import Terms from "./components/pages/Terms";
 import AboutPage from "./components/AboutPage";
 import Getquote from "./components/Getquote";
+import Landingpage from "./components/Landingpage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <h1>404</h1>
+    errorElement: <h1>404</h1>,
+    children: [
+      {
+        path: "/",
+        element: <Landingpage />,
+      },
+      {
+        path: "/bitumen",
+        element: <Bitumen />,
+      },
+      {
+        path: "/steel",
+        element: <Steel />,
+      },
+      {
+        path: "/cement",
+        element: <Cement />,
+      },
+      {
+        path: "/petroleum",
+        element: <Petroleum />,
+      },
+      {
+        path: "/emulsion",
+        element: <Emulsion />,
+      },
+      {
+        path: "/roadinfra",
+        element: <RoadInfra />,
+      },
+      {
+        path: "/about_us",
+        element: <AboutPage />,
+      },
+      {
+        path: "/getquote",
+        element: <Getquote />,
+      },
+      {
+        path: "/termsandcondition",
+        element: <Terms />,
+      },
+      {
+        path: "/privacypolicy",
+        element: <Privacy />,
+      },
+    ],
   },
-  {
-    path:"bitumen",
-    element: <Bitumen/>
-  },
-  {
-    path:"/steel",
-    element: <Steel/>
-  },
-  {
-    path:"/cement",
-    element: <Cement/>
-  },
-  {
-    path:"/petroleum",
-    element: <Petroleum/>
-  },
-  {
-    path:"/emulsion",
-    element: <Emulsion/>
-  },
-  {
-    path:"/roadinfra",
-    element: <RoadInfra/>
-  },
-  {
-    path:"/about_us",
-    element: <AboutPage/>
-  },
-  {
-    path:"/getquote",
-    element: <Getquote/>
-  },
-  {
-    path:"/termsandcondition",
-    element: <Terms/>
-  },
-  {
-    path:"/privacypolicy",
-    element: <Privacy/>
-  }
-  
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <>
-    <Navbar />
-    <RouterProvider router={router} />
-    <Footer />
-  </>
-);
+root.render(<RouterProvider router={router} />);

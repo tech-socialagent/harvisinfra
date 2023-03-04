@@ -36,7 +36,9 @@
   font-size: 20px;
   line-height: 24px;
 }
-
+.loc_btns a{
+  text-decoration: none;
+}
 .loc_btns .main_btn2:nth-child(2) {
     background: #d03042;
     border: 2.2px solid #d03042;

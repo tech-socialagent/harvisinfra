@@ -1,9 +1,10 @@
 import React from "react";
 import "../Styles/OurProducts.css";
+import { Link } from "react-router-dom";
 
 const OurProducts = () => {
   return (
-    <div className="our_products_section">
+    <div className="our_products_section" id="products">
       <div className="flo_art2"></div>
       <div className="section_header">
         <h3>Our Products.</h3>
@@ -26,7 +27,7 @@ const OurProducts = () => {
                 particularly in the construction of roads and highways.
               </div>
               <div className="item_btn">
-                <a href="/bitumen">Read more</a>
+                <Link to="/bitumen">Read more</Link>
               </div>
             </div>
           </div>
@@ -45,7 +46,7 @@ const OurProducts = () => {
                 particularly in the construction of roads and highways.
               </div>
               <div className="item_btn">
-                <a href="/emulsion">Read more</a>
+                <Link to="/emulsion">Read more</Link>
               </div>
             </div>
           </div>
@@ -64,7 +65,7 @@ const OurProducts = () => {
                 particularly in the construction of roads and highways.
               </div>
               <div className="item_btn">
-                <a href="/steel">Read more</a>
+                <Link to="/steel">Read more</Link>
               </div>
             </div>
           </div>
@@ -83,7 +84,7 @@ const OurProducts = () => {
                 particularly in the construction of roads and highways.
               </div>
               <div className="item_btn">
-                <a href="/cement">Read more</a>
+                <Link to="/cement">Read more</Link>
               </div>
             </div>
           </div>
@@ -102,7 +103,7 @@ const OurProducts = () => {
                 particularly in the construction of roads and highways.
               </div>
               <div className="item_btn">
-                <a href="/petroleum">Read more</a>
+                <Link to="/petroleum">Read more</Link>
               </div>
             </div>
           </div>

@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../Styles/Services.css";
 
 const Services = () => {
   return (
-    <div className="services_section dot_section">
+    <div className="services_section dot_section" id="services">
       <div className="section_heading">
         <h3>Our Services.</h3>
       </div>
@@ -22,7 +23,7 @@ const Services = () => {
                 particularly in the construction of roads and highways.
               </div>
               <div className="item_btn">
-                <a href="/roadinfra">Read more</a>
+                <Link to={"/roadinfra"}>Read more</Link>
               </div>
             </div>
           </div>

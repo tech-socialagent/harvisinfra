@@ -68,3 +68,11 @@ h4 > a {
   );
   border-radius: 15.4px 0px;
 }
+.mediaicons{
+  display: flex;
+}
+a[target="_blank"] img{
+  width: 40px;
+  height: 40px;
+  margin: 0px 5px;
+}

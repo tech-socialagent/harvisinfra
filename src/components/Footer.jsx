@@ -1,3 +1,10 @@
+import { Link } from "react-router-dom";
+import Facebook from "../assets/Icons/facebook.png";
+import Instagram from "../assets/Icons/IG.png";
+import LinkedIn from "../assets/Icons/LinkedIn.png";
+import Twitter from "../assets/Icons/Twitter.png";
+import Youtube from "../assets/Icons/youtube.png";
+
 import "../Styles/Footer.css";
 
 const Footer = () => {
@@ -20,27 +27,34 @@ const Footer = () => {
         </div>
         <div>
           <h4>PRODUCTS</h4>
-          <a href="/bitumen">Bitumen</a>
-          <a href="/emulsion">Emulsion</a>
-          <a href="/steel">Steel</a>
-          <a href="/cement">Cement</a>
-          <a href="/petroleum">Petroleum</a>
+          <Link to={"/bitumen"}>Bitumen</Link>
+          <Link to={"/emulsion"}>Emulsion</Link>
+          <Link to={"/steel"}>Steel</Link>
+          <Link to={"/cement"}>Cement</Link>
+          <Link to={"/petroleum"}>Petroleum</Link>
         </div>
         <div>
           <h4>SERVICES</h4>
-          <a href="/roadinfra">Road Infra</a>
+          <Link to={"/roadinfra"}>Road Infra</Link>
         </div>
         <div>
           <h4>SOCIAL MEDIA LINKS</h4>
+          <div className="mediaicons">
+          <a href="http://" target="_blank" rel="noopener noreferrer"><img src={Youtube} alt="" /></a>
+          <a href="http://" target="_blank" rel="noopener noreferrer"><img src={Instagram} alt="" /></a>
+          <a href="http://" target="_blank" rel="noopener noreferrer"><img src={LinkedIn} alt="" /></a>
+          <a href="http://" target="_blank" rel="noopener noreferrer"><img src={Twitter} alt="" /></a>
+          <a href="http://" target="_blank" rel="noopener noreferrer"><img src={Facebook} alt="" /></a>
+          </div>
         </div>
       </div>
       <div className="ft_bottom">
         <div className="ft_copy">
           <h5>Harvis &copy; 2023 All Right Reserved.</h5>
           <div>
-            <a href="/termsandcondition">Terms of Use</a>
-            <a href="/privacypolicy">Privacy Policy</a>
-          </div>
+            <Link to={"/termsandcondition"}>Terms of Use</Link>
+            <Link to={"/privacypolicy"}>Privacy Policy</Link>
+          </div>  
         </div>
         <div className="ft_flo"></div>
       </div>
