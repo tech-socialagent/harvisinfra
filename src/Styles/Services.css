@@ -1,6 +1,30 @@
-.services_section{
-    padding: 50px 80px; 
+.services_section {
+  padding: 50px 80px;
 }
-.services_section .section_heading h3{
-    
+.services_section .section_heading h3 {
+}
+
+.services{
+    margin-top: 60px;
+}
+.services_section .product_card {
+  width: 100% !important;
+  height: 330px;
+  overflow: hidden;
+  border-radius: 10px;
+
+  position: relative;
+}
+
+.services .product_card:hover .product_title {
+  display: block;
+  flex: 2;
+}
+.services .product_card:hover .product_desc {
+  position: relative;
+  flex: 6;
+}
+
+.services .product_card .foreground{
+  padding: 40px;
 }
