@@ -29,6 +29,7 @@
   margin-bottom: 24px;
 }
 .main_btn1 {
+  text-decoration: none;
   width: fit-content;
   padding: 10px 50px;
   font-weight: 600;

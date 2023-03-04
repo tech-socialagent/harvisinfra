@@ -1,6 +1,10 @@
+import { useEffect } from "react";
 import "../Styles/About_page.css";
 
 const AboutPage = () => {
+  useEffect(()=>{
+    window.scrollTo(0,0)
+  })
   return (
     <div className="aboutpage dot_section">
       <div className="top">

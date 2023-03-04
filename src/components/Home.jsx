@@ -10,7 +10,7 @@ const Home = () => {
       </video>
       <div className="banner_title">
         <h2 className="home_title">You Dream It. We Build It.</h2>
-        <div className="main_btn1">Know More</div>
+        <a href="#about" className="main_btn1">Know More</a>
       </div>
     </div>
   );

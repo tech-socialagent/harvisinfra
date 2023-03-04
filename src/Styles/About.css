@@ -11,6 +11,7 @@
   margin: 5px 0px;
 }
 .main_btn2 {
+  text-decoration: none;
   border: 2px solid #000000;
   width: fit-content;
   padding: 10px 50px;

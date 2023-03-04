@@ -1,7 +1,10 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "../../Styles/ProductPage.css";
 
 const Bitumen = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div className="bitumen_section">
       <div className="product_page">
